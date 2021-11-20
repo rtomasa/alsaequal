@@ -92,3 +92,10 @@ pcm.<name_pcm_plug>{
     type plug;
     slave.pcm <name_pcm>;
 }
+
+RGB-Pi:
+You have the Raspbian 32-bit precompiled libraries configuration files in the
+build folder. Instructions:
+
+- Copy alsa-lib folder to /usr/lib
+- Copy asound.conf to /etc
